@@ -1,17 +1,13 @@
 {
   "name": "robocoders-interactive-chat",
   "version": "1.0.0",
+  "description": "An interactive chat application integrating Robocoders.ai API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "axios": "^1.7.7",
-    "dotenv": "^16.4.5",
-    "readline": "^1.3.0"
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0"
   }
 }
